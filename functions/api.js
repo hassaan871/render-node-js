@@ -10,6 +10,10 @@ router.get('/', (req, res) => {
   res.send('Hassaan here ;) and my API is running..');
 });
 
+router.get('/about', (req, res) => {
+    res.send('Hassaan here ;) Congo your About API is working');
+  });
+
 router.post('/add', (req, res) => {
   res.send('New record added.');
 });
